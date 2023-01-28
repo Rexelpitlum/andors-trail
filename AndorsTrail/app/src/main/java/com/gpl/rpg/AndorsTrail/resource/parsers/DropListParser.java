@@ -150,6 +150,14 @@ public final class DropListParser extends JsonCollectionParserFor<DropList> {
 				"\t\t}\n" +
 				"\t},\n" +
 				"\t{\n" +
+				"\t\t\"itemID\":\"venomfang_dagger\",\n" +
+				"\t\t\"chance\":\"1/10000\",\n" +
+				"\t\t\"quantity\":{\n" +
+				"\t\t\t\"min\":1,\n" +
+				"\t\t\t\"max\":1\n" +
+				"\t\t}\n" +
+				"\t},\n" +
+				"\t{\n" +
 				"\t\t\"itemID\":\"gem_fire\",\n" +
 				"\t\t\"chance\":\"1/10000\",\n" +
 				"\t\t\"quantity\":{\n" +
