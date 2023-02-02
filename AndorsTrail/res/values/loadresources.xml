@@ -470,6 +470,7 @@
         <item>@xml/crossglen_hall</item>
         <item>@xml/crossglen_smith</item>
         <item>@xml/crossglen_cave</item>
+        <item>@xml/crossglen_lost_cellar</item>
         <item>@xml/wild1</item>
         <item>@xml/wild2</item>
         <item>@xml/wild3</item>
