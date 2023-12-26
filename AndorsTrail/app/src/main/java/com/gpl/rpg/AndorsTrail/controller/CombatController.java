@@ -239,7 +239,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		controllers.actorStatsController.addActorHealth(player, player.getSkillLevel(SkillCollection.SkillID.eater) * SkillCollection.PER_SKILLPOINT_INCREASE_EATER_HEALTH);
 
 		world.model.statistics.addMonsterKill(killedMonster.monsterType);
-		controllers.actorStatsController.addExperience(loot.exp);
+		controllers.actorStatsController.addExperience(loot.exp); // AFP
 		world.model.combatLog.append(controllers.getResources().getString(R.string.dialog_monsterloot_gainedexp, loot.exp));
 
 		totalExpThisFight += loot.exp;

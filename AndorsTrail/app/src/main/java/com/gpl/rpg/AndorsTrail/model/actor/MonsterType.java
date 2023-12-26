@@ -81,7 +81,7 @@ public final class MonsterType {
 		this.id = id;
 		this.name = name;
 		this.spawnGroup = spawnGroup;
-		this.exp = exp;
+		this.exp = exp * 5;
 		this.dropList = dropList;
 		this.phraseID = phraseID;
 		this.faction = faction;
